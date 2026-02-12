@@ -2,20 +2,20 @@
 
 const coding = ["js", "java", "cpp", "python", "cpp"]
 
-// coding.forEach( function (val) {
-//     console.log(val);
+coding.forEach( function (val) {
+    // console.log(val);
     
-// } )
+} )
 
-// coding.forEach( (item) => {
-//     console.log(item);
+coding.forEach( (item) => {
+    // console.log(item);
     
-// })
+})
 
-// coding.forEach ( (item, index, arr) => {
-//     console.log(item, index, arr);
+coding.forEach ( (item, index, arr) => {
+    // console.log(item, index, arr);
     
-// })
+})
 
 
 

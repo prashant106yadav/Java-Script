@@ -42,7 +42,7 @@ for (const [key, value] of map) {
 }
 
 
-// *** Objects are not iterable through for of loop ***
+// *** Objects are not iterable by for of loop ***
 
 // const myObj = {
 //     anime1 : "Bleach",
@@ -65,6 +65,6 @@ const myObject = {
 }
 
 for (const key in myObject) {
-   // console.log(myObject[key]);                                      // to get the values of the key in object
-  // console.log(`${key} shortcut is for ${myObject[key]}`);  
+   console.log(myObject[key]);                                      // to get the values of the key in object
+  console.log(`${key} shortcut is for ${myObject[key]}`);  
 }
