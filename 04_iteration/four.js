@@ -35,6 +35,9 @@ const myCoding = [
 ]
   
 myCoding.forEach( (item) => {
-    console.log(item.languageName);
+    // console.log(item.languageName);               
     
 });
+
+
+// Note :- for each does not return the values 
